@@ -1,0 +1,372 @@
+body{
+    
+    font-family:  "helvetica", sans-serif;
+    margin: 0 auto;
+    
+}
+
+
+.blur {
+    background:url('images/shiv4.jpg') no-repeat;
+    background-size:cover;
+    opacity:.3;
+    position:fixed;
+    width:100%;
+    height:100%;
+    z-index: -1;
+
+}
+
+#overlay{
+    
+ background-size : cover;
+ background-color: rgba(0,0,0,6);
+ width : 100%;
+ height: 100%;
+ z-index: -999;
+ position: absolute;
+    
+}
+
+
+#hr{
+
+text-align: center;
+margin-top:-60px;
+    
+}
+
+
+
+p.aa:first-letter
+{
+font-size:40px;
+}
+
+p.bb
+{
+font-size:20px;
+}
+
+.intro{
+height:680px;
+color:red;
+text-align:center;
+z-index: 9999;
+margin-left:-30px;
+position:relative;
+}
+
+h5 a{
+    
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+h5 a:hover {
+  
+    color: #ff3333;
+    
+}
+
+
+body
+{
+margin:0px;
+overflow-x:hidden;
+border-top-color:black;
+border-top-width:4px;
+border-top-style:solid;
+
+}
+
+#head{
+
+text-align:center;
+font-family: 'Sofia', cursive;
+ color:white; 
+font-size:90px;
+}
+
+.link{
+color:#FF3333;
+text-align:center;
+margin-top:-40px;
+}
+
+.name{
+color: #ffffff;
+text-align:center;
+font-size:70px;
+margin-top:-85px;
+font-family: 'Dancing Script', cursive;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Dancing Script|Sofia');
+
+
+.aboutleft {
+background-color:#FF3333;
+height:600px;
+width: 50%; 
+float:left;
+margin-top:-20px;
+z-index: 10000;
+
+}
+
+
+.aboutright {
+width:50%; 
+float: right;
+height:600px;
+background-color:white;
+overflow:auto;
+margin-top:-20px;
+
+}
+
+
+.skillsleft {
+
+height:600px;
+width: 50%; 
+background-color: rgba(255,255,255,1);
+float:left;
+}
+
+.skillsright {
+width:50%; 
+float: right;
+height:600px;
+
+background-color: rgba(0,0,0,.3);
+margin-top:0px;
+}
+
+#aa{
+color:green;
+font-size:70px;
+text-align:center;
+}
+
+p{
+padding: 0 40px;
+text-align: justify;
+padding-top:10px;
+font-stretch:narrower;
+vertical-align: middle;
+}
+
+#scroll{
+    
+    text-align: center;
+    
+}
+
+
+#skill{
+
+margin-top: 50px;
+height:400px;
+width:575px;
+}
+
+.projectsleft {
+background-color:#FF3333;
+height:600px;
+width: 50%; 
+
+float:left;
+}
+
+.projectsright {
+width:50%; 
+float: right;
+height:600px;
+
+background-color:white;
+
+
+}
+
+
+
+#machine{
+height:350px;
+width:600px;
+margin-left:50px;
+border-top-right-radius:20px;
+border-bottom-left-radius:20px;
+background-color:#FF9999;
+border-style:groove;
+border-bottom-color:black;
+border-right-color:black;
+color:red;
+}
+
+.workleft {
+background-color:white;
+height:600px;
+width: 50%; 
+float:left;
+
+}
+
+.workright {
+height : 482px;
+width:50%; 
+float: right;
+
+height:600px;
+background-color: rgba(0,0,0,.3);
+
+}
+
+.resumeleft {
+background-color:#FF3333;
+height:600px;
+
+width: 50%; 
+float:left;
+}
+
+.resumeright {
+width:50%; 
+float: right;
+
+height:600px;
+background-color:white;
+}
+
+#contact{
+background-color: rgba(0,0,0,.7);
+width: 100%; 
+height: 100%;
+}
+
+#cont{
+color:white;
+font-size:90px;
+font-family: 'Sofia', cursive;
+}
+
+
+.icon1{
+border-radius:40px;
+height:70px;
+width:70px;
+
+}
+
+.icon2{
+border-radius:60px;
+height:70px;
+width:70px;
+
+}
+
+.iconname{
+color:red;
+}
+
+p#content:first-letter { font-size: 2em; }
+
+.icon3{
+border-radius:200px;
+height:70px;
+width:70px;
+}
+
+.iconname1{
+color:white;
+}
+
+#content{
+font-size:25px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    height:70px;
+    width:200px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+
+
+
+.scrollbar
+{
+    background-color:white;
+    height:600px;
+    width:auto;
+    float:left;
+    overflow-y:scroll;
+ 
+}
+
+
+.force-overflow
+{
+	min-height: 458x;
+}
+
+
+    
+
+
+
+
+    #style-2::webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	-webkit-border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #ff3333;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    
+   #skill{
+
+   margin-top: 50px;
+   height:200px;
+   width:375px;
+}
+    
+}
+
+
+
+
+
+
+
